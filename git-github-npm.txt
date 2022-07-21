@@ -1,0 +1,45 @@
+npm:
+cleancss -o style.min.css style.css
+----------------------------------------------------
+https://www.origamid.com/slide/html-e-css-para-iniciantes/#/0804-git/5
+
+git config --global user.name "Seu Nome"
+git config --global user.email "email@gmail.com"
+
+git init
+git add style.css / git add -A / git add .
+git status
+git commit -m 'Descrição'  // if git commit = esc + :wq or :p
+
+git remote add origin https://github.com/seuusuario/seurepositorio.git (exemplo)
+git remote add origin https://github.com/adriwco/bikcraft-complexo.git
+git pull
+git push -u origin main  (primeiro)
+git push (em diante)
+git push -f
+
+----------------------------------------------------
+git remote -v (verificar o repositório remoto do Git)
+---Formas de alterar o repositório
+git remote remove origin or git remote rm origin (remover remote)
+git remote add origin git://suaUrl (add novo endereço)
+git remote set-url origin git://suaUrl (alterar o diretório remoto)
+ou
+git remote rename origin old-origin
+git remote add origin novaurl
+----------------------------------------------------
+git revert HEAD~1
+Ou HEAD~2 para reverter os 2 últimos commits.
+git reset (caso o commit não tenha sido publicado)
+----------------------------------------------------
+
+git clone https://github.com/adriwco/projeto
+git pull (trazer mudanças do repositório remoto para o local - unir o conteudo dos arquivos alterado)
+git commit -m "texto" mover da state area para o repositorio remoto
+git push (enviar do local para o remoto)
+git merge minha_outra_branch (mesclar commit e branch na branch atual)
+git log (hitorico de commits ou um em espercifico)
+
+
+Git é o sistema de versionamento.
+GitHub é uma plataforma para repositorios Git.
