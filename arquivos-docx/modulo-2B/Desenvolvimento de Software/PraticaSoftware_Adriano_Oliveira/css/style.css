@@ -1,0 +1,16 @@
+body{
+  background-color: burlywood;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+  color: brown;
+}
+thead{
+  text-align: center;
+  font-variant: small-caps;
+  text-shadow: 2px 3px 4px red;
+}
+table{
+  background-color: blueviolet;
+  color: white;
+}
