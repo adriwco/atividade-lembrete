@@ -1,23 +1,19 @@
 npm:
 cleancss -o style.min.css style.css
 ----------------------------------------------------
-https://www.origamid.com/slide/html-e-css-para-iniciantes/#/0804-git/5
-
 git config --global user.name "Seu Nome"
 git config --global user.email "email@gmail.com"
 
+echo "# fragmentos" >> README.md
 git init
 git add style.css / git add -A / git add .
-git status
-git commit -m 'Descrição'  // if git commit = esc + :wq or :p
-
-git remote add origin https://github.com/seuusuario/seurepositorio.git (exemplo)
-git remote add origin https://github.com/adriwco/bikcraft-complexo.git
-git pull
-git push -u origin main  (primeiro)
+git commit -m "first commit" / if git commit "" = esc + :wq or :p
+git branch -M main
+git remote add origin https://github.com/adriwco/fragmentos.git
+git push -u origin main   (primeiro)
 git push (em diante)
-git push -f
-
+git push -f (forçado)
+git status
 ----------------------------------------------------
 git remote -v (verificar o repositório remoto do Git)
 ---Formas de alterar o repositório
