@@ -24,7 +24,7 @@ ou
 git remote rename origin old-origin
 git remote add origin novaurl
 ----------------------------------------------------
-git revert HEAD~1
+git revert HEAD~1  (vai precisar do git push -f para força a sobreposição)
 Ou HEAD~2 para reverter os 2 últimos commits.
 git reset (caso o commit não tenha sido publicado)
 ----------------------------------------------------

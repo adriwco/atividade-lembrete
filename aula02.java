@@ -12,7 +12,7 @@ public class aula02 {
       soma += array[i];
     }
     media = soma / (numeros - 1);
-
+    
     // saída
     JOptionPane.showMessageDialog(null, "A soma é " + soma + " e a média é " + media);
     System.exit(0);
