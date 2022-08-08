@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fundamentos do JavaScript</title>
+</head>
+
+<body>
+  <header>
+    <h1>Fundamentos do JavaScript</h1>
+  </header>
+  <main>
+    <form id="formulario">
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" placeholder="Digite o seu nome"> </br>
+      <label for="sobrenome">Sobrenome:</label>
+      <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite o seu sobrenome"> </br>
+      <label for="email">E-mail:</label>
+      <input type="email" name="email" id="email" placeholder="campo dinânimo" onkeyup="receberDados()"> </br>
+      <button type="submit" id="submit">Enviar</button>
+    </form>
+    <div>
+      <p>Valor do Nome: <span id="campo_nome"></span> </p>
+      <p>Valor do Sobrenome: <span id="campo_sobrenome"></span> </p>
+      <p>Valor do E-mail: <span id="campo_email"></span> </p>
+    </div>
+  </main>
+  <script>
+    var form = document.getElementById('formulario');
+    var nome = document.getElementById('nome');
+    var sobrenome = document.getElementById('sobrenome');
+    var email = document.getElementById('email');
+    form.addEventListener('submit', function (e) {
+      alert("Nome: " + nome.value + "\nSobrenome: " + sobrenome.value + "\nE-mail: " + email.value);
+      document.getElementById('campo_nome').innerHTML = nome.value;
+      document.getElementById('campo_sobrenome').innerHTML = sobrenome.value;
+      e.preventDefault();
+    });
+    function receberDados() {
+      var email = document.getElementById('email').value;
+      document.getElementById('campo_email').innerHTML = email;
+    }
+  </script>
+</body>
+
+</html>
