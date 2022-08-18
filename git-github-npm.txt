@@ -36,6 +36,11 @@ git push (enviar do local para o remoto)
 git merge minha_outra_branch (mesclar commit e branch na branch atual)
 git log (hitorico de commits ou um em espercifico)
 
-
 Git é o sistema de versionamento.
 GitHub é uma plataforma para repositorios Git.
+
+~~~~~~~~~~~Reverter erro!
+$ git reflog
+$ git reset --mixed baedb3e
+$ git stash
+
