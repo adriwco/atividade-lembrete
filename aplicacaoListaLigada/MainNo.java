@@ -7,7 +7,7 @@ public class MainNo {
     ListaLigada intLista = new ListaLigada();
     int num;
     for (int i = 1; i <= 10; i++) {
-      num = Integer.parseInt(JOptionPane.showInputDialog("Digite o " + i + "° número inteiro"));
+      num = Integer.parseInt(JOptionPane.showInputDialog("Digite o " + i + "° número inteiro:"));
       if (num % 3 == 0) {
         intLista.InserirFinal(new No(num));
       }

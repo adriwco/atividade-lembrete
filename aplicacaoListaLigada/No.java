@@ -44,10 +44,14 @@ class ListaLigada {
   public void MostrarLista() {
     int i = 1;
     No NoTemp = primeiro;
-    while (NoTemp != null) {
-      System.out.println("Elemento " + NoTemp.elemento + " posição " + i);
-      NoTemp = NoTemp.prox;
-      i = i + 1;
+    if (!ListaVazia()) {
+      while (NoTemp != null) {
+        System.out.println("Elemento " + NoTemp.elemento + " posição " + i);
+        NoTemp = NoTemp.prox;
+        i = i + 1;
+      }
+    } else {
+      System.out.println("Nenhum número divisível por 3.");
     }
   }
 
