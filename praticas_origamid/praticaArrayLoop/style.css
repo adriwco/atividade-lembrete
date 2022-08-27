@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a{
+  display: block;
+  width: 4rem;
+  border: 1px solid #FEC63E;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  margin: 1rem;
+  border-radius: 10px;
+}
+h1{
+  margin: 1rem;
+}

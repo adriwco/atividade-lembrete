@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Array e Loop</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Array e Loop</h1>
+  <nav>
+    <ul>
+      <li><a href="./">Home</a></li>
+      <li><a href="./produtos.html">Produtos</a></li>
+      <li><a href="./contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  <script>
+    function funcao() {
+      return "funcao";
+    }
+    const array = ["JS", 20, true, funcao(), {
+      t1: "t1",
+      t2: "t2"
+    }]
+    console.log(array);
+
+    console.log("---------------------------------------")
+    console.log('lista | for')
+
+    const body = document.querySelector('body');
+    for (let i = 0; i < array.length; i++) {
+      const item = array[i];
+      body.innerHTML += '<li>' + item + '</li>';
+    }
+
+    console.log("---------------------------------------")
+    console.log('lista | forEach')
+
+    function logarItems(item, i) {
+      body.innerHTML += '<li>' + i + ' : ' + item + '</li>'
+    }
+    // todo array tem esse metodo forEach
+    array.forEach(logarItems);
+
+    console.log("---------------------------------------")
+    console.log('metodo | querySelectorAll')
+
+    const links = document.querySelectorAll('a');
+    console.log(links)
+    function logHref(item, i) {
+      const href = item.href;
+      console.log(i + " : " + href)
+    }
+    links.forEach(logHref);
+    console.log(links[0])
+    console.log(links.length)
+    console.log(links[links.length - 1])
+
+    console.log("---------------------------------------")
+    console.log('array | metodos e propriedades')
+
+    // retorna o total
+    console.log(array.length)
+    //remove o último
+    const ultimo = array.pop();
+    console.log(ultimo)
+    //remove o primeiro
+    const primeiro = array.shift();
+    console.log(primeiro)
+    //adiciona ao final
+    const adicionar = array.push('PHP');
+    console.log(adicionar)
+    //resultado das operações
+    console.log(array)
+  </script>
+</body>
+
+</html>
