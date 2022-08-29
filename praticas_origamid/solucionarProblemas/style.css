@@ -16,3 +16,6 @@ img{
   gap: 10px;
   margin-bottom: 10px;
 }
+#galeria li{
+  cursor: pointer;
+}
