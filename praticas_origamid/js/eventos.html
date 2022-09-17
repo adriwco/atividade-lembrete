@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>eventos</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+      height: 2000px;
+    }
+
+    .texto {
+      display: none;
+    }
+
+    .texto.ativo {
+      display: block;
+    }
+
+    .scroll-window {
+      width: 16px;
+      height: 16px;
+      background-color: #999;
+      border-radius: 50%;
+      position: absolute;
+      transition: .3s;
+      z-index: -1;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Teste: eventos</h1>
+  <p>console.log( ... );</p>
+  <button type="button" class="ativar">addEventListener</button>
+  <!-- ------------------------------------------------------------------- -->
+  <button type="button" class="ativar1">event</button>
+  <!-- ------------------------------------------------------------------- -->
+  <button class="botao">toggle()</button>
+  <p class="texto">texto.classList.toggle('ativo');</p>
+  <!-- ------------------------------------------------------------------- -->
+  <p>Scroll</p>
+  <div class="scroll-window"></div>
+  <!-- ------------------------------------------------------------------- -->
+  <button class="cor-aleatoria">Math.floor(Math.random() * (number + 1))</button>
+  <script>
+    const ativar = document.querySelector('.ativar');
+    function handleClickAtivar() {
+      console.log('handleClickAtivar', ativar);
+    }
+    ativar.addEventListener('click', handleClickAtivar);
+
+    /*-------------------------------------------------------------------*/
+
+    const ativar1 = document.querySelector('.ativar1');
+    /** @param {MouseEvent} event */
+    function handleClickAtivar1(event) {
+      console.log(event);
+      const elemento = event.currentTarget;
+      const tempoPassado = event.timeStamp;
+      const posicaoMouse = {
+        x: event.x,
+        y: event.y,
+      };
+      console.log(elemento);
+      console.log(tempoPassado); //tempo em milessegundos
+      console.log(posicaoMouse);
+    }
+    ativar1.addEventListener('click', handleClickAtivar1);
+
+    /*-------------------------------------------------------------------*/
+
+    const botao = document.querySelector('.botao');
+    function mostrar() {
+      const texto = document.querySelector('.texto');
+      texto.classList.toggle('ativo');
+    }
+    botao.addEventListener('click', mostrar);
+
+    /*-------------------------------------------------------------------*/
+
+    const alturaTela = window.innerHeight;
+    const larguraTela = window.innerWidth;
+    console.log('alturaTela: ' + alturaTela);
+    console.log('larguraTela: ' + larguraTela);
+
+    const elemento = document.querySelector('.scroll-window');
+    function coordenadaMouse(event) {
+      elemento.style.left = event.x + 'px';
+      elemento.style.top = event.y + 'px'
+    }
+    window.addEventListener('mousemove', coordenadaMouse);
+
+    function scroll() {
+      console.log(window.scrollY);
+    }
+    window.addEventListener('scroll', scroll);
+
+    /*-------------------------------------------------------------------*/
+
+    var btn = document.querySelector('.cor-aleatoria');
+    function random(number) {
+      return Math.floor(Math.random() * (number + 1));
+    }
+    btn.onclick = function () {
+      var rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+      document.body.style.backgroundColor = rndCol;
+    }
+  </script>
+</body>
+
+</html>
