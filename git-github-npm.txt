@@ -1,5 +1,5 @@
-npm:
-cleancss -o style.min.css style.css
+npm: clean-css-cli
+cleancss -o css/style.min.css css/style.css --with-rebase
 ----------------------------------------------------
 git config --global user.name "Seu Nome"
 git config --global user.email "email@gmail.com"
