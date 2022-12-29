@@ -2,7 +2,7 @@
 
 <a href="https://github.com/adriwco"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"/></a>
 
-🔹Backup de atividades aplicadas na faculdade e arquivos para lembrar alguns assuntos. Não tem um foco especifico ou um padrão de organização estabelecido até o momento. Situação: a estudar JS ES6+ para depois iniciar estudos React.
+🔹Backup de atividades aplicadas na faculdade e arquivos para lembrar alguns assuntos. Não tem um foco especifico ou um padrão de organização estabelecido até o momento. Situação: a estudar JS ES6+ para depois iniciar estudos de React.
 
 <a href="https://github.com/adriwco"><img src="https://raw.githubusercontent.com/khoa083/khoa/main/Khoa_ne/img/Rainbow.gif" width="100%"/></a>
 
