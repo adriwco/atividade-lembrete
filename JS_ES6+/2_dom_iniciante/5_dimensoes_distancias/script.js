@@ -41,9 +41,9 @@ rect.top; // distância entre o topo do elemento e o scroll
 /*
 WINDOW
 */
-window.innerWidth; // width do janela
+window.innerWidth; // width da janela
+window.innerHeight; // height da janela
 window.outerWidth; // soma dev tools também
-window.innerHeight; // height do janela
 window.outerHeight; // soma a barra de endereço
 
 window.pageYOffset; // distância total do scroll vertical
