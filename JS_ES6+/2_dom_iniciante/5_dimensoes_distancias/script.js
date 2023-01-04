@@ -66,7 +66,7 @@ if(small.matches) {
   console.log('Tela maior que 600px')
 }
 /*
-DICA: 
+DICA no console: 
 - Selecione o elemento no inspetor (dom)
 - Abra o console e digite $0 para selecionar o mesmo
 - Os elementos selecionados anteriormente são $1, $2 ...
@@ -79,12 +79,35 @@ EXERCÍCIO
 */
 // Verifique a distância da primeira imagem
 // em relação ao topo da página
-
+const imagens = document.querySelectorAll('.iamgem1');
+imagens[0].offsetTop;
 // Retorne a soma da largura de todas as imagens
-
+function somaImagens(){
+  let soma = 0;
+  imagens.forEach((imagem) => {
+    soma += imagem.offsetWidth;
+  })
+  console.log(soma)
+}
+window.onload = function(){
+  somaImagens();
+}
 // Verifique se os links da página possuem
 // o mínimo recomendado para telas utilizadas
 // com o dedo. (48px/48px de acordo com o google)
-
+const links = document.querySelectorAll('a');
+links.forEach((link)=>{
+  const pxAtualW = link.offsetWidth;
+  const pxAtualH = link.offsetHeight;
+  if(pxAtualH >= 48 && pxAtualW >= 48){
+    console.log('tudo ok')
+  }else{
+    console.log(link)
+  }
+})
 // Se o browser for menor que 720px,
 // adicione a classe menu-mobile ao menu
+if(window.matchMedia('(max-width: 720px)').matches){
+  const menuTeste = document.querySelector('.menu');
+  menuTeste.classList.add('menu-mobile');
+}
