@@ -1,0 +1,3 @@
+ssudbus.sys.old
+pnputil /delete-driver oem177.inf /uninstall /force
+
