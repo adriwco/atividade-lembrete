@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Condicionais</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+
+    .numero {
+      margin-top: 10px;
+      margin-left: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Teste: condicionais</h1>
+  <button type="button">Adicionar</button>
+  <div class="numero">0</div>
+  <script>
+    const botaoAdicionar = document.querySelector('button');
+
+    function somar() {
+      let numeroDiv = Number(document.querySelector('.numero').innerHTML);
+      if (numeroDiv < 9) {
+        numeroDiv++;
+      } else {
+        console.log('numeroDiv < 10 = false');
+      }
+      document.querySelector('.numero').innerHTML = numeroDiv;
+    }
+    //  let numeroDiv = document.querySelector('.numero');
+    //  let soma = Number(numeroDiv.innerHTML) + 1;
+    //  if (soma < 10) {
+    //    numeroDiv.innerHTML = soma;
+    //  } else {
+    //    console.log('numeroDiv < 10 = false');
+    //  }
+
+    //  Boolean(botaoAdicionar)
+    if (botaoAdicionar) {
+      botaoAdicionar.addEventListener("click", somar);
+    }
+  </script>
+</body>
+
+</html>
