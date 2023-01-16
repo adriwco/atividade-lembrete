@@ -111,3 +111,6 @@ console.log(firstDT);
 const firstDD = firstDT.nextElementSibling;
 console.log(firstDD);
 // Substitua o conteúdo html de .faq pelo de .animais
+const faqAll = document.querySelector(".faq");
+const animaiss = document.querySelector(".animais");
+faqAll.replaceChild(animaiss, faq);
