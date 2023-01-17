@@ -114,3 +114,5 @@ console.log(firstDD);
 const faqAll = document.querySelector(".faq");
 const animaiss = document.querySelector(".animais");
 faqAll.replaceChild(animaiss, faq);
+// ou
+faqAll.innerHTML = animaiss.innerHTML;
