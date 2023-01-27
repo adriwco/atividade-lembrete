@@ -158,9 +158,19 @@ const pessoa = {
   }
 }
 
+function Pessoa(nome, idade){
+  this.nome = nome,
+  this.idade = idade,
+  this.andar = () => {
+    console.log(this.nome + ' andou');
+  }
+}
+
 // Crie 3 pessoas, João - 20 anos,
 // Maria - 25 anos, Bruno - 15 anos
-
+const pessoa1 = new Pessoa('João',20);
+const pessoa2 = new Pessoa('Bruno',15);
+const pessoa3 = new Pessoa('Maria',25);
 
 // Crie uma Constructor Function (Dom) para manipulação
 // de listas de elementos do dom. Deve conter as seguintes
@@ -169,3 +179,20 @@ const pessoa = {
 // elements, retorna NodeList com os elementos selecionados
 // addClass(classe), adiciona a classe a todos os elementos
 // removeClass(classe), remove a classe a todos os elementos
+
+function ManipularLista(selector) {
+  const element = document.querySelector(selector);
+  this.nodeList = () => {
+    return element;
+  };
+  this.addClass = (classe) => {
+    element.classList.add(classe);
+  };
+  this.removeClass = (classe) => {
+    element.classList.remove(classe);
+  };
+}
+const lista = new ManipularLista("ul");
+console.log(lista.nodeList());
+lista.addClass("ativo");
+lista.removeClass("ativo");
