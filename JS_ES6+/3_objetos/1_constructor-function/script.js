@@ -181,18 +181,20 @@ const pessoa3 = new Pessoa('Maria',25);
 // removeClass(classe), remove a classe a todos os elementos
 
 function ManipularLista(selector) {
-  const element = document.querySelector(selector);
-  this.nodeList = () => {
-    return element;
-  };
+  const elementList = document.querySelectorAll(selector);
+  this.nodeList = elementList;
   this.addClass = (classe) => {
-    element.classList.add(classe);
+    elementList.forEach((element)=>{
+      element.classList.add(classe);
+    })
   };
   this.removeClass = (classe) => {
-    element.classList.remove(classe);
+    elementList.forEach((element)=>{
+      element.classList.remove(classe);
+    })
   };
 }
 const lista = new ManipularLista("ul");
-console.log(lista.nodeList());
+console.log(lista.nodeList);
 lista.addClass("ativo");
 lista.removeClass("ativo");
