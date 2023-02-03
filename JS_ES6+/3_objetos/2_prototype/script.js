@@ -7,7 +7,7 @@ function Pessoa(nome, idade) {
   this.nome = nome;
   this.idade = idade;
 }
-const andre = new Pessoa('André', 28);
+const andre = new Pessoa("André", 28);
 
 console.log(Pessoa.prototype); // retorna o objeto
 console.log(andre.prototype); // undefined
@@ -18,15 +18,15 @@ console.log(andre.prototype); // undefined
 FUNCAO.PROTOTYPE: É possível adicionar novas propriedades e métodos ao objeto prototype.
 */
 
-Pessoa.prototype.andar = function() {
-  return this.nome + ' andou';
-}
-Pessoa.prototype.nadar = function() {
-  return this.nome + ' nadou';
-}
+Pessoa.prototype.andar = function () {
+  return this.nome + " andou";
+};
+Pessoa.prototype.nadar = function () {
+  return this.nome + " nadou";
+};
 console.log(Pessoa.prototype); // retorna o objeto
 
-// detalhe: toda vez que criar um objeto novo estará estanciando a funçao (a que fica dentro do function contructor) e quando se cria direto no prototype a funçao só vai ser criado uma vez que o obejto novo tiver acesso...  
+// detalhe: toda vez que criar um objeto novo estará estanciando a funçao (a que fica dentro do function contructor) e quando se cria direto no prototype a funçao só vai ser criado uma vez que o obejto novo tiver acesso...
 
 // Primeiro é buscado no object e depois do prototype, se nao vai retornar erro
 
@@ -35,7 +35,7 @@ console.log(Pessoa.prototype); // retorna o objeto
 /*
 ACESSO AO PROTÓTIPO: O objeto criado utilizando o construtor, possui acesso aos métodos e propriedades do protótipo deste construtor. Lembrando, prototype é uma propriedade de funções apenas.
 */
-const andre1 = new Pessoa('André', 28);
+const andre1 = new Pessoa("André", 28);
 andre1.nome;
 andre1.idade;
 andre1.andar();
@@ -77,8 +77,8 @@ andre.valueOf();
 /*
 CONSTRUTORES NATIVOS: Objetos, Funções, Números, Strings e outros tipos de dados são criados utilizando construtores. Esses construtores possuem um protótipo com propriedades e métodos, que poderão ser acessadas pelo tipo de dado.
 */
-const pais = 'Brasil';
-const cidade = new String('Rio');
+const pais = "Brasil";
+const cidade = new String("Rio");
 
 pais.charAt(0); // B
 cidade.charAt(0); // R
@@ -90,7 +90,7 @@ String.prototype;
 /*
 É POSSÍVEL ACESSAR A FUNÇÃO DO PROTÓTIPO: É comum, principalmente em códigos mais antigos, o uso direto de funções do protótipo do construtor Array.
 */
-const lista = document.querySelectorAll('li');
+const lista = document.querySelectorAll("li");
 // Transforma em uma array
 const listaArray = Array.prototype.slice.call(lista);
 // Existe o método Array.from()
@@ -111,8 +111,8 @@ Object.getOwnPropertyNames(Array.prototype);
 // --------------------------------------------------------------------------------------------
 
 // APENAS OS MÉTODOS DO PROTÓTIPO SÃO HERDADOS
-[1,2,3].slice(); // existe
-[1,2,3].from(); // não existe
+[1, 2, 3].slice(); // existe
+[1, 2, 3].from(); // não existe
 
 // --------------------------------------------------------------------------------------------
 
@@ -120,20 +120,20 @@ Object.getOwnPropertyNames(Array.prototype);
 ENTENDA O QUE ESTÁ SENDO RETORNADO: Os métodos e propriedades acessado com o . são referentes ao tipo de dados que é retornado antes desse .
 */
 const Carro = {
-  marca: 'Ford',
+  marca: "Ford",
   preco: 2000,
   acelerar() {
     return true;
-  }
-}
+  },
+};
 
-Carro // Object
-Carro.marca // String
-Carro.preco // Number
-Carro.acelerar // Function
-Carro.acelerar() // Boolean
-Carro.marca.charAt // Function
-Carro.marca.charAt(0) // String
+Carro; // Object
+Carro.marca; // String
+Carro.preco; // Number
+Carro.acelerar; // Function
+Carro.acelerar(); // Boolean
+Carro.marca.charAt; // Function
+Carro.marca.charAt(0); // String
 // Verifique o nome do construtor com .constructor.name
 
 // --------------------------------------------------------------------------------------------
@@ -143,15 +143,23 @@ Carro.marca.charAt(0) // String
 // Deve conter nome, sobrenome e idade
 // Crie um método no protótipo que retorne
 // o nome completo da pessoa
-
-// Liste os métodos acessados por 
+function Pessoas (nome, sobrenome, idade) {
+  this.nome = nome;
+  this.sobrenome = sobrenome;
+  this.idade = idade;
+  this.nomeCompleto = () => {
+    return `${this.nome} ${this.sobrenome}`;
+  };
+};
+const nome1 = new Pessoas("Adriano", "Weverton", 22);
+// Liste os métodos acessados por
 // dados criados com NodeList,
 // HTMLCollection, Document
 
 // Liste os construtores dos dados abaixo
-const li = document.querySelector('li');
+const li = document.querySelector("li");
 
-li;
+li; 
 li.click;
 li.innerText;
 li.value;
