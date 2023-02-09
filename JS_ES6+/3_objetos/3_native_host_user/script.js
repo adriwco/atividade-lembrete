@@ -65,8 +65,17 @@ API: Application Programming Interface, é uma interface de software criada para
 
 // EXERCÍCIOS
 // Liste 5 objetos nativos
-
+Object;
+String;
+Array;
+Function;
+Number;
 // Liste 5 objetos do browser
-
+window;
+history;
+Document;
+HTMLCollection;
+NodeList;
 // Liste 2 Métodos, Propriedades ou Objetos
 // presentes no Chrome que não existem no Firefox
+// ex: os webkit que existe no chrome e no firefox não
