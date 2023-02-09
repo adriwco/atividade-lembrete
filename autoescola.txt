@@ -1,6 +1,6 @@
 🟢 C . T . B . - 9.503 \ 97 - Código de Trânsito Brasileiro / Leis aprovadas pelo congresso.
 
-🟢 Legislação de trânsito - L.T. - 15 questão - Terça, quarta e quinta
+🟢 Legislação de trânsito - L.T. - 15 questões - Terça, quarta e quinta
 
 🟢 Para os que estão enfrentando problemas com a aula: 
   1. Atualiza a página 
@@ -245,7 +245,7 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
 
   🔴 6 ] AUXILIAR 
 
-🟢 M.V. - 03 questão - Mecânica de Veículo 
+🟢 M.V. - 03 questões - Mecânica de Veículo 
 
   🔴 Proibições
     - Faltar combustível em via pública (4 - M 130)
@@ -336,3 +336,211 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
   
   🔴 Estudar: painel de instrumentos!
   🔴 Simulados: ICNH CE
+
+
+🟢 M.C. - 02 questões - Meio Ambiente e Cidadania 
+
+🔴 BISU - Os veículos são fontes de poluição móveis
+
+🔴 Multas:
+  - Molhar pedestres (4 - M - 130)
+  - Veículos liberando sólido em suspensão ou vazamento de óleo(5 GR 195 REM VEIC)
+  - Alarme automotivo (4 M 130 REM VEIC)
+  - Som automotivo (5 GR 195) 
+    BISU - 90 decibéis = limite para audição humana
+
+🔴 G N V 
+   - 2 MANUTENÇAO POR ANO 
+   - VELAs PROPRIA GAS NATURAL
+   - PERDE PORTA MALA 50% 
+   - CILINDRO 5 ANOS 
+   - VISTORIA GAS 
+   - MOTOR SECO 
+   - TEMPERATURA + 90 GRAU 
+
+🔴 Fonte de poluição fixa relacionada com o transito
+  - POSTO DE COMBUSTIVEIS
+  - OFICINAS 
+  - LAVA-JATO
+
+🔴 SISNAMA - Sistema nacional do Meio ambiente 
+  - Implementar política de melhoria de qualidade ambiente no trânsito
+
+🔴 CONAMA - CONSELHO NACIONAL DO MEIO AMBIENTE 
+  - IMPLANTAR NORMAS E PADRÕES COMPATÍVEIS COM O MEIO AMBIENTE NO TRÂNSITO 
+
+🔴 CATALISADOR 
+  Neutraliza os gases poluentes emitido pelos veículo
+  - GASOLINA 
+  - ETANOL [ ALCCOL ] 
+  - GAS NATURAL
+  - DIESEL 
+
+🔴 PROCONVE 
+  - PROGRAMA DE CONTROLE DA POLUIÇÃO AR POR VEÍCULOS AUTOMOTORES 
+
+🔴 PROMOT 
+  - PROGRAMA DE CONTROLE DA POLUIÇÃO DO AR POR MOTOCICLETAS E SIMILARES
+
+🔴 Materiais e sua Decomposição
+  - ALUMINIO - INDETERMINDO 
+  - PLASTICO - + 100 ANOS 
+  - LATA - + 10 ANOS 
+  - VIDROS - + 4.000 anos 
+  - PONTAS CIGARRO - + 1 ANO 
+  - PAPEL - + 3 MESES 
+
+🔴 GASES POLUENTES EMITIDO PELOS VEÍCULOS 
+  - ALDEIDOS: liberado na combutão do alcool
+  - MONOXIDO DE CARBONO : Liberado na combustão da gasolina
+  - DIASINA - Liberado na combustão do óleo disel 
+  - OXIDOS DE NITROGENIO : Liberado na combustão em altas temperaturas GNV
+  - DIOXIDO DE ENXOFRE : Liberado na combustão de misturas incompletas, em mistura com a água vira ácido 
+
+🔴 PROCESSO DE HABILITAÇAO 
+  - SER +18 
+  - SABER LER E ESCREVER 
+  - RG e CPF 
+  - SER PENALMENTE IMPUTÁVEL
+
+🔴 RENACH 
+  - Registro nacional de condutores habilitado 
+
+🔴 L.A.D.V. 
+  - Licença para Aprendizagem de Direção Veicular 
+
+🔴 P.I.D.  
+  - Permissão internacional para dirigir
+
+🔴 C.D.T. 
+  - Carteira digital de trânsito 
+
+
+🟢 Primeiros Socorros - P.S. - 03 questões
+  - Procedimentos no local de acidente até ajuda especializada chegar no local
+  - Procedimento = condutor 
+  - Atendimento = ajuda especializada
+
+- A parte menor responde pelo dano material
+- A parte maior responde pelo processual 
+
+🔴 Fique longe dos 3:
+  - Pedreste
+  - Ciclistas
+  - Motociclista
+
+  - Veículo de placa vermelha 
+  - Veículo de serviço de emergência : saia da frente 
+  Não dá a passagem ou seguir atrás = 7 GM 293
+  - Veículo de serviço de emergência tem prioridade, demais condutores tem preferência 
+  - Em via de 3 faixas a mais esquerda pertence a serviço de emergencia
+  - A primeira faixa é a esquerda, ou seja, a ordem é da esquerda para a direita 
+  Permanecer na faixa da esquerda = 4 M 130 
+
+🔴 I J F - Instituto José Frota 
+  - 85% TRANSITO (atendimento) - 75% HOMEMs - 16 A 28 ANOS 
+
+🔴 Condutor envolvido em acidente - causador do acidente
+  1 ] SINALIZAÇAO DO LOCAL (Falta = 7 GM 1.400 + S D D)
+    - Ligar o pisca alerta e colocar o triângulo na via de acordo com a velocidade máxima convertida em passos longos 
+    OBS: Não tendo boa visibilidade dobra a distância: noite, chuva, neblina, nevoeiro, aclive, declive e curvas 
+    OBS: Acidente em curvas se conta os passos a partir da saída da curva
+
+  2 ] LIGAR PARA SERVIÇO DE EMERGENCIA (7 GM 1.400 + S D D )
+    190 = P M - Policia militar
+    191 = P R F - Policia rodoviaria federal
+    192 = S A M U - Serviços de atendimento móvel de urgência 
+    193 = B M - Bombeiro militar
+
+  3 ] AFASTAR CURIOSOS - para proteger o local e a vítima (7 GM 1.400 + S D D )
+
+  4 ] TENTAR ACALMA VITIMA 
+
+  5 ] VER . SIN . VIT . Verificar Sinais Vitais  [BISU - Respiração e Pulsação]
+
+🔴 HEMORRGIAS 
+  - Perda de sangue por veias ou arterias 
+  A ] INTERNA 
+    Quando se perde sangue para dentro da cavidade do corpo 
+  B ] EXTERNA 
+    Quando se perde sangue para fora da cavidade do corpo 
+  - VENOSA 
+    Quando se perde sangue por veias, o sangue e escuro e o sangramento e lento e continuo 
+  - ARTERIAL 
+    Quando se perde sangue por arterial o sangue e vermelho vivo, se perde sangue e oxigênio em jatos
+  OBS: Hemorragia se lida com compressão
+
+🔴 FRATURAS 
+  - Quebra ou ruptura de ossos 
+  A ] FECHADA 
+    O osso quebra não perfura a superfície da pele 
+  B ] ABERTA [ EXPOSTA 
+    O osso quebrado perfura a superfície da pele 
+  OBS: Fraturas se lida com imobilização
+
+🔴 QUEIMADURAS 
+  - Lesões na pele decorrente do calor ou frio 
+  1 ] GRAU
+    Vermelhidão na pele seguindo de dor 
+  2 ] GRAU 
+    Vermelhidão na pele seguindo de dor e bolhas 
+  OBS: Não perfurar as bolhas, passam a ser ferimentos
+  3 ] GRAU 
+    Destruição da pele, carbonizou
+  OBS: Se lida com água fria e corrente
+
+
+🟢 Direção Defensiva - D . D . 18
+  - Dirigir de forma a evitar acidente
+
+🔴 ALCOOLIZADO NO TRANSITO (Etilômetro)
+  - ART - 165 
+  - 00,00 / LEI SECA
+  - ATE - 00,06 / 7 GM = 2.936 + S D D (DELEGACIA + ADVOGADO)
+  - Reincidência / GM = 5.800 + S D D (DELEGACIA + ADVOGADO)
+
+  - BOMBOM DE LICOR, DOCINHO DE LICOR, ANTISSEPTICO BUCAL, BIOTONICO, CALDO DE CANA, MASSA COM TEOR ACOLICO... pode ser acusado pelo etilômetro
+
+🔴 RENAVAM [ VEICULO ]
+  - Registro nacional de veículos automotores 
+  CHASSI = INTERNA 
+  PLACAS = EXTERNA 
+  Qualquer problema com a placa = 7 GM 293 REM VEIC 
+
+🔴 C R V 
+  - Certificado de registro de veículo (Não é obrigatório)
+
+🔴 D.U.T.
+  - Documento único de transferência (Não é obrigatório)
+
+🔴 Assim que comprar um novo carro...  
+  - 30 DIAS VISTORIA NO DETRAN, se não 5 GR 195 RET VEIC
+
+🔴 C.L.A. 
+  - Certificado de licenciamento anual (3 - L = 88 RET VEIC )
+  - 12 MESES (+30 DIAS) 
+  - Todo ano pagar: IPVA LICENCIAMENTO SEGURO OBRIGATORIO 
+
++30 anos \\\ 70% Original \\\ Placa preta - NAO PODE NAS RODOVIAS [ BR \\\ CE ] 
+
+🔴 ELEMENTOS DA DIREÇÃO DEFENSIVA 
+1 ] CONHECIMENTO 
+  - Leis de trânsito 
+  - Sinalização de trânsito 
+  - Normas de circulação 
+  - Conhecimento do veículo 
+
+2 ] ATENÇAO
+  (BISU: todo condutor deve conduzir em estado de alerta)  
+  - FIXA 
+  - DISPESIVA 
+  - DIFUSA 
+
+3 ] PREVISAO 
+  - Prever o acidente antes que ele aconteça
+  - Todo condutor ao perceber obstáculo deve parar o veículo
+
+4 ] DECISAO [ AÇAO ] 
+
+5 ] HABILIADE 
+  (BISU) Com o tempo e a prática 
