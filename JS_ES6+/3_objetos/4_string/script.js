@@ -201,7 +201,7 @@ console.log(transacoes1);
 // Retorne uma array com a lista abaixo
 const transportes = "Carro;Avião;Trem;Ônibus;Bicicleta";
 const arrayTransportes = transportes.split(";");
-console.log(arrayTransportes)
+console.log(arrayTransportes);
 
 // Substitua todos os span's por a's
 const html = `<ul>
@@ -209,9 +209,11 @@ const html = `<ul>
                 <li><span>Produtos</span></li>
                 <li><span>Contato</span></li>
               </ul>`;
+const htmlA = html.split("span").join("a");
 
 // Retorne o último caracter da frase
 const fras2 = "Melhor do ano!";
+fras2.at(-1);
 
 // Retorne o total de taxas
 const transacoes2 = [
@@ -221,3 +223,30 @@ const transacoes2 = [
   "depósito Bancário",
   "TARIFA especial",
 ];
+transacoes2.forEach((taxas) => {
+  console.log(taxas.trim().toLocaleLowerCase());
+});
+
+/*
+--------------------------------------------------------------------------------------------
+length
+at()
+charAt()
+concat()
+includes()
+startsWith()
+endsWith()
+slice()
+indexOf()
+lastIndexOf()
+padEnd()
+padStart()
+padEnd()
+repeat()
+split()
+toLocaleLowerCase()
+trim()
+trimEnd()
+trimStart()
+--------------------------------------------------------------------------------------------
+*/
