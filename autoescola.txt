@@ -524,23 +524,62 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
 +30 anos \\\ 70% Original \\\ Placa preta - NAO PODE NAS RODOVIAS [ BR \\\ CE ] 
 
 🔴 ELEMENTOS DA DIREÇÃO DEFENSIVA 
-1 ] CONHECIMENTO 
-  - Leis de trânsito 
-  - Sinalização de trânsito 
-  - Normas de circulação 
-  - Conhecimento do veículo 
+  1 ] CONHECIMENTO 
+    - Leis de trânsito 
+    - Sinalização de trânsito 
+    - Normas de circulação 
+    - Conhecimento do veículo 
 
-2 ] ATENÇAO
-  (BISU: todo condutor deve conduzir em estado de alerta)  
-  - FIXA 
-  - DISPESIVA 
-  - DIFUSA 
+  2 ] ATENÇAO
+    (BISU: todo condutor deve conduzir em estado de alerta)  
+    - FIXA 
+    - DISPESIVA 
+    - DIFUSA 
 
-3 ] PREVISAO 
-  - Prever o acidente antes que ele aconteça
-  - Todo condutor ao perceber obstáculo deve parar o veículo
+  3 ] PREVISAO 
+    - Prever o acidente antes que ele aconteça
+    - Todo condutor ao perceber obstáculo deve parar o veículo
 
-4 ] DECISAO [ AÇAO ] 
+  4 ] DECISAO [ AÇAO ] 
 
-5 ] HABILIADE 
-  (BISU) Com o tempo e a prática 
+  5 ] HABILIADE 
+    (BISU) Com o tempo e a prática 
+
+🔴 Condiçoes adversas: 8
+  - iluminação 
+    Ofuscamento(muita luz), penumbra(pouca ou ausencia de luz), noite...
+  - tempo
+    Chuva, frio/calor, ventos, neblina, cerração, fumaça...
+      **prova** aquaplanagem, a perca da aderência dos pneus com o solo devido a uma camada de agua. 
+  - vias 
+    Aclive/declive, curvas/buracos, elevações/depressões, má sinalização/má iluminação...
+  - transito 
+    Escolas, acidentes/obras, horário/aglomeração, veículos lentos ou longos...
+  - veiculo 
+    Pneus, iluminação, equipamentos obrigatório, todos os funcionamentos...
+      **prova** margem para saber se o pneu está careca, 1,6 milimetros de profundidade
+  - carga
+    Comprimento, altura/largura, condicionamento inseguro, compartimento inadequado...
+  - passageiro 
+    Crianças/idosos, discussões/namoros, barulho/euforia, distração/transportar animais...
+  - condutor
+    Mal estado físico, mal estado psicológico, frio/falta de habilidade...
+
+🔴 Tipos de Colisões
+  **prova** 1/3 das colisão acontecem em cruzamentos 
+  - Colisão com veículo da frente
+  - Colisão com veículo de trás
+  - Colisão frente a frente (frontal)
+  - Colisão nos cruzamentos 
+  - Colisão em marcha ré
+  - Colisão com motocicletas
+
+🔴 Tipos de distância
+  Distância de seguimento
+  **prova** regra dos dois segundos...
+  Distância de reação 
+  Distância de frenagem  
+  Distância de parada
+
+  **prova** Viu o perigoro e rirou o pé do acelerador (Distância de reação), acionar freios (Distância de frenagem) e parada totalmente (Distância de parada)
+  Parada absoluta = reação + frenagem
