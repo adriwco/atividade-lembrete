@@ -229,24 +229,17 @@ transacoes2.forEach((taxas) => {
 
 /*
 --------------------------------------------------------------------------------------------
-length
-at()
-charAt()
-concat()
-includes()
-startsWith()
-endsWith()
-slice()
-indexOf()
-lastIndexOf()
-padEnd()
-padStart()
-padEnd()
-repeat()
-split()
-toLocaleLowerCase()
-trim()
-trimEnd()
-trimStart()
+- str.length 
+- str.at(n), str.charAt(n) 
+- str.concat(str2, str3, ...)
+- str.includes(search, position), str.startsWith(search), str.endsWith(search)
+- str.slice(start, end)
+- str.indexOf(search), str.lastIndexOf(search)
+- str.padEnd(n, str), str.padStart(n, str)
+- str.repeat(n)
+- str.replace(regexp|substr, newstr|function)
+- str.split(padrao), Array -> join(padrao)
+- str.toLowerCase(), str.toUpperCase()
+- str.trim(), str.trimEnd(), str.trimStart()
 --------------------------------------------------------------------------------------------
 */
