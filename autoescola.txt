@@ -581,5 +581,26 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
   Distância de frenagem  
   Distância de parada
 
-  **prova** Viu o perigoro e rirou o pé do acelerador (Distância de reação), acionar freios (Distância de frenagem) e parada totalmente (Distância de parada)
+  **prova** Viu o perigo e tirou o pé do acelerador (Distância de reação), acionar freios (Distância de frenagem) e parada totalmente (Distância de parada)
   Parada absoluta = reação + frenagem
+
+--------------------------------------------------------------
+REGRAS DE OURO DE INFRAÇÃO
+- VEICULO PARADO = MULTA
+- VEICULO EM MOVIMENTO = MULTA 
+- VEICULO ESTACIONADO = MULTA + REMOÇÃO
+- COISAS FACEIS DE RESOLVER = MULTA + RETENÇÃO
+- COISAS FACÉIS DE RESOLVER = MULTA + RETENÇÃO
+- CRIME = MULTA + APREENSÃO
+- SUSPENSÃO = RECOLHE CNH 
+- EMPATE = A MAIS RECHEADA
+- CHUTE = 60% A MAIOR 
+- 90% DAS INFRAÇÕES DE MOTOCICLETAS SÃO GRAVISSIMA
+- 90% DAS INFRAÇÕES DE BICICLETAS SÃO MEDIAS
+- AMBULANCIA = SEGUIR = GRAVE; IMPENDIR = GRAVISSIMA
+- CICLO FAIXA SEM OBSTACULOS
+- CICLO VIA COM OBSTACULO
+- 60% DAS OPÇÃO QUE ABRANGUEM SÃO VERDADEIRAS. EX. TODAS.
+- 60% DAS OPÇÃO QUE RESTINGUEM SÃO FALSAS. EX. SOMENTE OU APENAS.
+- CONTRAMÃO = MÃO ÚNICA = GRAVISSIMA; MÃO DUPLA = GRAVE
+
