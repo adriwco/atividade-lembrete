@@ -100,18 +100,35 @@ Math.floor(Math.random() * 500); // entre 0 e 500
 
 // Número random entre 72 e 32
 Math.floor(Math.random() * (72 - 32 + 1)) + 32;
-Math.floor(Math.random() * (max - min + 1)) + min;
+// Math.floor(Math.random() * (max - min + 1)) + min;
 
 // --------------------------------------------------------------------------------------------
 
 // EXERCÍCIOS
 // Retorne um número aleatório
 // entre 1050 e 2000
+console.log(Math.floor(Math.random() * (2000 - 1050 + 1 )) + 1050)
 
 // Retorne o maior número da lista abaixo
 const numeros = "4, 5, 20, 8, 9";
+const numerosArrayString = numeros.split(', ')
+let numeroParseFloat = [];
+numerosArrayString.forEach((numero)=>{
+  numeroParseFloat.push(Number.parseFloat(numero))
+})
+console.log(numeroParseFloat)
+console.log("Maior número: "+Math.max(...numeroParseFloat))
 
 // Crie uma função para limpar os preços
 // e retornar os números com centavos arredondados
 // depois retorne a soma total
 const listaPrecos = ["R$ 59,99", " R$ 100,222", "R$ 230  ", "r$  200"];
+let centavosAround = [];
+let total = 0;
+listaPrecos.forEach((preco)=>{
+  const precoString = preco.slice((preco.lastIndexOf("$") + 1));
+  centavosAround.push(Number.parseFloat(precoString))
+  total += Number.parseFloat(precoString);
+})
+console.log(centavosAround)
+console.log(total)
