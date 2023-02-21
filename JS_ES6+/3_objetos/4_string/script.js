@@ -193,9 +193,23 @@ const transacoes1 = [
     valor: "R$ 49",
   },
 ];
-transacoes1.forEach((transacao) => {
-  transacao.somaValores = transacao.descricao.concat(" ", transacao.valor);
+let valoresTotal = 0;
+let taxaTotal = 0;
+let reciboTotal = 0;
+transacoes1.forEach((item) => {
+  const valor = item.valor;
+  const valorLimpo = +valor.replace("R$ ", "");
+  item.somaValores = item.descricao.concat(" ", valor);
+  valoresTotal += valorLimpo;
+  if (item.descricao.slice(0, 4) === "Taxa") {
+    taxaTotal += valorLimpo;
+  } else {
+    reciboTotal += valorLimpo;
+  }
 });
+transacoes1.valoresTotal = valoresTotal;
+transacoes1.taxaTotal = taxaTotal;
+transacoes1.reciboTotal = reciboTotal;
 console.log(transacoes1);
 
 // Retorne uma array com a lista abaixo
@@ -204,16 +218,17 @@ const arrayTransportes = transportes.split(";");
 console.log(arrayTransportes);
 
 // Substitua todos os span's por a's
-const html = `<ul>
-                <li><span>Sobre</span></li>
-                <li><span>Produtos</span></li>
-                <li><span>Contato</span></li>
-              </ul>`;
-const htmlA = html.split("span").join("a");
+let html = `<ul>
+              <li><span>Sobre</span></li>
+              <li><span>Produtos</span></li>
+              <li><span>Contato</span></li>
+            </ul>`;
+html = html.split("span").join("a");
+console.log(html)
 
 // Retorne o último caracter da frase
 const fras2 = "Melhor do ano!";
-fras2.at(-1);
+fras2.at(-1); // fras2[--fras2.length] ou slice(-1)
 
 // Retorne o total de taxas
 const transacoes2 = [
@@ -223,10 +238,13 @@ const transacoes2 = [
   "depósito Bancário",
   "TARIFA especial",
 ];
+let taxasTotal = 0;
 transacoes2.forEach((taxas) => {
-  console.log(taxas.trim().toLocaleLowerCase());
+  if(taxas.trim().toLocaleLowerCase().includes('taxa')){ // .slice(0,4)==='taxa'
+    taxasTotal++;
+  }
 });
-
+console.log(taxasTotal)
 /*
 --------------------------------------------------------------------------------------------
 - str.length 
