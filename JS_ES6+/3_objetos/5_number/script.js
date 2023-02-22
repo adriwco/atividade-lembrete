@@ -107,17 +107,17 @@ Math.floor(Math.random() * (72 - 32 + 1)) + 32;
 // EXERCÍCIOS
 // Retorne um número aleatório
 // entre 1050 e 2000
-console.log(Math.floor(Math.random() * (2000 - 1050 + 1 )) + 1050)
+console.log(Math.floor(Math.random() * (2000 - 1050 + 1)) + 1050);
 
 // Retorne o maior número da lista abaixo
 const numeros = "4, 5, 20, 8, 9";
-const numerosArrayString = numeros.split(', ')
+const numerosArrayString = numeros.split(", ");
 let numeroParseFloat = [];
-numerosArrayString.forEach((numero)=>{
-  numeroParseFloat.push(Number.parseFloat(numero))
-})
-console.log(numeroParseFloat)
-console.log("Maior número: "+Math.max(...numeroParseFloat))
+numerosArrayString.forEach((numero) => {
+  numeroParseFloat.push(Number.parseFloat(numero));
+});
+console.log(numeroParseFloat);
+console.log("Maior número: " + Math.max(...numeroParseFloat));
 
 // Crie uma função para limpar os preços
 // e retornar os números com centavos arredondados
@@ -125,10 +125,32 @@ console.log("Maior número: "+Math.max(...numeroParseFloat))
 const listaPrecos = ["R$ 59,99", " R$ 100,222", "R$ 230  ", "r$  200"];
 let centavosAround = [];
 let total = 0;
-listaPrecos.forEach((preco)=>{
-  const precoString = preco.slice((preco.lastIndexOf("$") + 1));
-  centavosAround.push(Number.parseFloat(precoString))
+listaPrecos.forEach((preco) => {
+  const precoString = preco.slice(preco.lastIndexOf("$") + 1);
+  centavosAround.push(Number.parseFloat(precoString));
   total += Number.parseFloat(precoString);
-})
-console.log(centavosAround)
-console.log(total)
+});
+console.log(centavosAround);
+console.log(total);
+
+/*
+Number.isNaN()
+Number.isInteger()
+Number.parseFloat(str)
+Number.parseInt(str, 10)
+Number.toFixed()
+Number.toString(10)
+Math.PI; // 3.14159
+Math.E; // 2.718
+Math.LN10; // 2.303
+Math.abs()
+Math.ceil()
+Math.floor()
+Math.round()
+Math.max()
+Math.min()
+Math.random() // 0.XXX
+Math.floor(Math.random() * (max - min + 1)) + min
+Number.toLocaleString("en-US", { style: "currency", currency: "USD" })
+Number.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
+*/
