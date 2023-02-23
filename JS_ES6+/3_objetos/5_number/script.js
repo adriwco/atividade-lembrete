@@ -112,12 +112,18 @@ console.log(Math.floor(Math.random() * (2000 - 1050 + 1)) + 1050);
 // Retorne o maior número da lista abaixo
 const numeros = "4, 5, 20, 8, 9";
 const numerosArrayString = numeros.split(", ");
+
 let numeroParseFloat = [];
 numerosArrayString.forEach((numero) => {
   numeroParseFloat.push(Number.parseFloat(numero));
 });
 console.log(numeroParseFloat);
-console.log("Maior número: " + Math.max(...numeroParseFloat));
+// Spread syntax (...) > passa cada elemento do array como argumento ?   (OBS: converteu string para number quando passado pelo metodo do objeto Math)
+const numeroMaximoType1 = Math.max(...numeroParseFloat);
+console.log(numeroMaximoType1);
+
+const numeroMaximo = Math.max(...numerosArrayString);
+console.log(numeroMaximo);
 
 // Crie uma função para limpar os preços
 // e retornar os números com centavos arredondados
@@ -131,15 +137,23 @@ listaPrecos.forEach((preco) => {
   total += Number.parseFloat(precoString);
 });
 console.log(centavosAround);
-console.log(total);
+console.log(total.toLocaleString('pt-BR',{style:'currency', currency: 'BRL'}));
+
+let total2 = 0;
+listaPrecos.forEach((preco) => {
+  preco = +preco.toUpperCase().replace("R$", "").trim().replace(",", ".");
+  preco = +preco.toFixed(2);
+  total2 += preco;
+});
+console.log(total2.toLocaleString('pt-BR',{style:'currency', currency: 'BRL'}));
 
 /*
 Number.isNaN()
 Number.isInteger()
 Number.parseFloat(str)
 Number.parseInt(str, 10)
-Number.toFixed()
-Number.toString(10)
+n.toFixed() retorna string
+n.toString(10)
 Math.PI; // 3.14159
 Math.E; // 2.718
 Math.LN10; // 2.303
@@ -151,6 +165,6 @@ Math.max()
 Math.min()
 Math.random() // 0.XXX
 Math.floor(Math.random() * (max - min + 1)) + min
-Number.toLocaleString("en-US", { style: "currency", currency: "USD" })
-Number.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
+n.toLocaleString("en-US", { style: "currency", currency: "USD" })
+n.toLocaleString("pt-BR", { style: "currency", currency: "BRL" })
 */
