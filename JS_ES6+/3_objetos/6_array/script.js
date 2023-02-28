@@ -237,3 +237,23 @@ let html = `<section>
 const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
 // Remova o último carro, mas antes de remover
 // salve a array original em outra variável
+
+/*
+Array.from()  argument = array-like objects / transformar em array
+Array.isArray()  verifica se o argument é uma array 
+Array.of(), Array() e new Array()
+[].length  tamanho da array
+Mutator Methods
+[].sort()	organiza a pelo unicode
+[].unshift()	add elementos ao início da array
+[].push()	add elementos ao final da array
+[].shift()	remove o primeiro elemento da array
+[].pop()	remove o último elemento da array
+[].reverse()	inverte os itens da array
+[].splice(index, remover, item1, item2, ...)	add valor a partir do index / remove a quantidade a partir do index / item que serão adicionados
+
+[].copyWithin(alvo, inicio, final) 
+
+... 
+https://www.origamid.com/slide/javascript-completo-es6/#/0406-array/12
+*/
