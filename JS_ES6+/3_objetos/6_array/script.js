@@ -239,21 +239,27 @@ const carros = ['Ford', 'Fiat', 'VW', 'Honda'];
 // salve a array original em outra variável
 
 /*
-Array.from()  argument = array-like objects / transformar em array
-Array.isArray()  verifica se o argument é uma array 
-Array.of(), Array() e new Array()
-[].length  tamanho da array
+🔸Array.from()  argument = array-like objects / transformar em array
+🔸Array.isArray()  verifica se o argument é uma array 
+🔸Array.of(), Array() e new Array()
+🔸[].length  tamanho da array
+
 Mutator Methods
-[].sort()	organiza a pelo unicode
-[].unshift()	add elementos ao início da array
-[].push()	add elementos ao final da array
-[].shift()	remove o primeiro elemento da array
-[].pop()	remove o último elemento da array
-[].reverse()	inverte os itens da array
-[].splice(index, remover, item1, item2, ...)	add valor a partir do index / remove a quantidade a partir do index / item que serão adicionados
+🔸[].sort()	organiza a pelo unicode
+🔸[].unshift()	add elementos ao início da array
+🔸[].push()	add elementos ao final da array
+🔸[].shift()	remove o primeiro elemento da array
+🔸[].pop()	remove o último elemento da array
+🔸[].reverse()	inverte os itens da array
+🔸[].splice(index, remover, item1, item2, ...)	add valor a partir do index / remove a quantidade a partir do index / item que serão adicionados
+🔸[].copyWithin(alvo, inicio, final)  add valor do inicio até <final a partir do alvo, aceita numero negativo ex: [].copyWithin(-1)
+🔸[].fill(valor, inicio, final) preenche a array com o valor, do início até o <fim
 
-[].copyWithin(alvo, inicio, final) 
-
-... 
-https://www.origamid.com/slide/javascript-completo-es6/#/0406-array/12
+Modificam a array original, apenas retornam uma array modificada
+🔸[].concat() concatenar a array com o valor passado
+🔸[].includes(valor)   verifica se a array possui o valor e retorna true ou false
+🔸[].indexOf(valor) verifica se a array possui o valor e retorna o index do primeiro valor na array
+🔸[].lastIndexOf(valor) retorna o index do último
+🔸[].join(separador)  junta todos os valores da array e retorna uma string com eles
+🔸[].slice(inicio, final) retorna os itens da array
 */
