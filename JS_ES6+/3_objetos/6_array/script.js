@@ -253,12 +253,14 @@ const carros1 = ["Ford", "Fiat", "VW", "Honda"];
 // Remova o último carro, mas antes de remover
 // salve a array original em outra variável
 const carros2 = [...carros1]
+const carros3 = carros1.slice()
 // criar o userArray que é o array original
 // e depois atribuir a cloneArray, porém 
 // utilizando a sintaxe com o spread operator
 carros1.pop()
-console.log(carros1)
-console.log(carros2)
+console.log(carros1) // ['Ford', 'Fiat', 'VW']
+console.log(carros2) // ['Ford', 'Fiat', 'VW', 'Honda']
+console.log(carros3) // ['Ford', 'Fiat', 'VW', 'Honda']
 
 /*
 🔸Array.from()  argument = array-like objects / transformar em array
@@ -277,7 +279,7 @@ Mutator Methods
 🔸[].copyWithin(alvo, inicio, final)  add valor do inicio até <final a partir do alvo, aceita numero negativo ex: [].copyWithin(-1)
 🔸[].fill(valor, inicio, final) preenche a array com o valor, do início até o <fim
 
-Modificam a array original, apenas retornam uma array modificada
+Modificam a array original, apenas retornam uma array modificada. Métodos de acesso...
 🔸[].concat() concatenar a array com o valor passado
 🔸[].includes(valor)   verifica se a array possui o valor e retorna true ou false
 🔸[].indexOf(valor) verifica se a array possui o valor e retorna o index do primeiro valor na array
