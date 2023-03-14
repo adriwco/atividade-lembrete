@@ -42,7 +42,7 @@
 
   DNIT Controi e PRF Fiscaliza
 
-  ONTRANDIFE tem a mesma competência dos CETRANs / coordenada das leis (função)
+  CONTRANDIFE tem a mesma competência dos CETRANs / coordenada das leis (função)
 
   Atenção:
     CONTRAN = Emite Resolução
@@ -52,7 +52,6 @@ Explicação…
 
 🔴 A ] NORMATIVOS
   CONTRAN - Conselho Nacional de Trânsito
-    Orgão do sistema nacional
     orgão máximo do sisterma nacional localizado no DF
     Função: coordenar a lei de trânsito em todo territorio nacional
 
@@ -73,7 +72,7 @@ Explicação…
     Função: divulgar campanhas educativas, espedir habilitação a nivel nacional atraves de delegações e controlar e manter registro de condutor e veículo
 
   DNIT - Departamento Nacional de Infraestrutura de Transportes
-    Função: construção. sinalização e manutenção das rodovias e estradas federais
+    Função: construção, sinalização e manutenção das rodovias e estradas federais
 
   PRF - Policia Rodoviária Federal
     Fiscaliza rodovias e estradas federais (ATENÇÃO) - Eles podem multar em qualque canto...
@@ -81,18 +80,16 @@ Explicação…
   D.E.R. - Departamento de Estradas e Rodagem
     Construção, sinalização e manutenção das estradas e rodovias estaduais e distritais
 
----
+  DETRANs - Departamento Estadual de Trânsito
+    Orgão executivo estadual e distrital
+    26 - estados / 01 - distrital / 27 - nacional
+    Função: processo de emplacamento de veículo e processo de habilitação
 
-🔴 DETRANs - Departamento Estadual de Trânsito
-  Orgão executivo estadual e distrital
-  26 - estados / 01 - distrital / 27 - nacional
-  Função: processo de emplacamento de veículo e processo de habilitação
+  P M - Polícias Militares
+    Fiscaliza rodovias e estradas estaduais e distritais através de seu batalhão
 
-🔴 P M - Polícias Militares
-  Fiscaliza rodovias e estradas estaduais e distritais através de seu batalhão
-
-🔴 CIRETRAN - Circunscrição Regional de Trânsito
-  Tem por finalidade cumprir e fazer cumprir a legislação e as normas de trânsito no âmbito de sua jurisdição.
+  CIRETRAN - Circunscrição Regional de Trânsito
+    Tem por finalidade cumprir e fazer cumprir a legislação e as normas de trânsito no âmbito de sua jurisdição.
 
 ---
 
@@ -178,19 +175,19 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
   [Estudar nome e a mensagem da placa]
 
   🔴 1 ] VERTICAIS [ placas ] 
-    A) ADVERTENCIA 
+    A) ADVERTENCIA  
+      - Predominantemente cor amarela, exceto as laranjas (obras) 
       - Adverte sobre o perigo na via 
       - Não gera multa
-      - Se localiza antes do obstáculo 
-      - Predominantemente cor amarela, exceto as laranjas (obras) 
+      - Se localiza antes do obstáculo
       - Formato predominante é quadrado
       - Exceto x (cruz de Santo André)
       - Exceto retângulo (sentido único / sentido duplo) 
     B) REGULAMENTAÇAO 
+      - Predominantemente cor vermelho
       - Manda, regulamenta e proíbe 
       - O desrespeito gera multa 
       - Se localiza antes do obstáculo 
-      - Predominantemente cor vermelho
       - Formato predominante é circulo
       - Exceto octógonos (parada obrigatória) ou triângulo (dê a preferência)  
 
@@ -221,8 +218,7 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
         - Transitar é proibido (7 GM 1.400)
       PISCA ALERTA 
         - Defeito ou acidente (5 GR 195)
-
-      - Marcas de canalização - proibido transitar (7 GM 880)
+      Marcas de canalização - proibido transitar (7 GM 880)
 
   🔴 3 ] SONORA [ buzina ou apito ]
     - buzina = condutor
@@ -443,8 +439,7 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
 🔴 Condutor envolvido em acidente - causador do acidente
   1 ] SINALIZAÇAO DO LOCAL (Falta = 7 GM 1.400 + S D D)
     - Ligar o pisca alerta e colocar o triângulo na via de acordo com a velocidade máxima convertida em passos longos 
-    OBS: Não tendo boa visibilidade dobra a distância: noite, chuva, neblina, nevoeiro, aclive, declive e curvas 
-    OBS: Acidente em curvas se conta os passos a partir da saída da curva
+    OBS: Não tendo boa visibilidade dobra a distância: noite, chuva, neblina, nevoeiro, aclive, declive e curvas. Acidente em curvas se conta os passos a partir da saída da curva
 
   2 ] LIGAR PARA SERVIÇO DE EMERGENCIA (7 GM 1.400 + S D D )
     190 = P M - Policia militar
@@ -458,7 +453,7 @@ Obs: Estudar - PNU (Placa Nacional Única) - NAO TEM DESENHO NA PROVA
 
   5 ] VER . SIN . VIT . Verificar Sinais Vitais  [BISU - Respiração e Pulsação]
 
-🔴 HEMORRGIAS 
+🔴 HEMORRAGIAS 
   - Perda de sangue por veias ou arterias 
   A ] INTERNA 
     Quando se perde sangue para dentro da cavidade do corpo 
@@ -590,7 +585,6 @@ REGRAS DE OURO DE INFRAÇÃO
 - VEICULO EM MOVIMENTO = MULTA 
 - VEICULO ESTACIONADO = MULTA + REMOÇÃO
 - COISAS FACEIS DE RESOLVER = MULTA + RETENÇÃO
-- COISAS FACÉIS DE RESOLVER = MULTA + RETENÇÃO
 - CRIME = MULTA + APREENSÃO
 - SUSPENSÃO = RECOLHE CNH 
 - EMPATE = A MAIS RECHEADA

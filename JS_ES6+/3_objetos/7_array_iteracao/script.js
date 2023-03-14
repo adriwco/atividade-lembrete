@@ -388,6 +388,9 @@ const numeros7 = [3, 44, 333, 23, 122, 322, 33];
 let maior100 = numeros7.map((n) => {
   if (n > 100) return n;
 });
+maior100 = maior100.filter((numero) => {
+  return !isNaN(numero);
+});
 console.log(maior100);
 
 /*
