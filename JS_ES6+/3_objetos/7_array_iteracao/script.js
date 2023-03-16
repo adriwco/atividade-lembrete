@@ -343,6 +343,20 @@ const aulasMaiores = aulas3.filter((aula) => {
 // Selecione cada curso e retorne uma array
 // com objetos contendo o título, descricao,
 // aulas e horas de cada curso
+const arrayCursos = Array.from(document.querySelectorAll(".curso"));
+const objectCurso = arrayCursos.map((curso) => {
+  const titulo = curso.querySelector("h1").innerHTML;
+  const descricao = curso.querySelector("p").innerHTML;
+  const aulas = curso.querySelector(".aulas").innerHTML;
+  const horas = curso.querySelector(".horas").innerHTML;
+  return {
+    titulo,
+    descricao,
+    aulas,
+    horas,
+  };
+});
+console.log(objectCurso);
 
 function listaText(selector, type) {
   const elemento = document.querySelectorAll(selector);
@@ -359,7 +373,6 @@ function listaText(selector, type) {
     return obj;
   }
 }
-
 // 1 = array | 2 = object
 listaText(".curso h1", 2);
 listaText(".curso p", 2);
@@ -385,12 +398,13 @@ console.log(arrayText(titulo))
 // Retorne uma lista com os
 // números maiores que 100
 const numeros7 = [3, 44, 333, 23, 122, 322, 33];
-let maior100 = numeros7.map((n) => {
-  if (n > 100) return n;
-});
-maior100 = maior100.filter((numero) => {
-  return !isNaN(numero);
-});
+
+const maior100b = numeros7.filter((n) => n > 100);
+console.log(maior100b);
+
+let maior100 = numeros7
+  .map((n) => (n > 100 ? n : undefined)) // o map é desnecessario... 
+  .filter((numero) => !isNaN(numero));
 console.log(maior100);
 
 /*
@@ -402,6 +416,7 @@ Remover itens duplicados:
 // Verifique se Baixo faz parte
 // da lista de instrumentos e retorne true
 const instrumentos = ["Guitarra", "Baixo", "Bateria", "Teclado"];
+console.log(instrumentos.some((item) => item === "Baixo"));
 console.log(instrumentos.includes("Baixo"));
 
 // Retorne o valor total das compras
@@ -428,14 +443,24 @@ const compras = [
   },
 ];
 
-const comprasValor = compras.map((alvo) => {
-  return alvo.preco;
+let valorTotal = compras.reduce((acumulador, item) => {
+  const precoLimpo = +item.preco.replace("R$ ", "").replace(",", ".");
+  return acumulador + precoLimpo;
+}, 0);
+
+valorTotal = valorTotal.toLocaleString("pt-BR", {
+  style: "currency",
+  currency: "BRL",
 });
+console.log(valorTotal);
 
 let comprasTotal = 0;
-comprasValor.forEach((alvo) => {
-  comprasTotal += +alvo.replace("R$ ", "").replace(",", ".");
-});
+const comprasValor = compras.map((alvo) => { 
+  const precoLimpo = +alvo.preco.replace("R$ ", "").replace(",", ".");
+  comprasTotal += precoLimpo;
+  return precoLimpo;
+}); // acho que um forEach() seria melhor já que minha ideia não é fazer alteração no array e obter um novo a partir do mesmo... , mas como é um processo de acumulado o reduce() se torna a melhor opção...
+
 comprasTotal = comprasTotal.toLocaleString("pt-BR", {
   style: "currency",
   currency: "BRL",
