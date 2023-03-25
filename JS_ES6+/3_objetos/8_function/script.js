@@ -120,10 +120,10 @@ const arrayLike = {
   3: "Item 3",
   length: 4,
 };
-const arrayFiltro = Array.prototype.filter.call(arrayLike, (item)=>{
-  return isNaN(item)
-})
-console.log(arrayFiltro) // Retorna os itens que forem diferente de Number
+const arrayFiltro = Array.prototype.filter.call(arrayLike, (item) => {
+  return isNaN(item);
+});
+console.log(arrayFiltro); // Retorna os itens que forem diferente de Number
 
 // --------------------------------------------------------------------------------------------
 
@@ -182,6 +182,7 @@ carro1.acelerar(100, 20);
 const honda = {
   marca: "Honda",
 };
+
 const acelerarHonda = carro1.acelerar.bind(honda);
 acelerarHonda(200, 10);
 // Honda acelerou 200 em 10
@@ -205,11 +206,29 @@ imc180(70); // 21.6
 // Exercícios
 // Retorne a soma total de caracteres dos
 // parágrafos acima utilizando reduce
+const paragrafos = document.querySelectorAll("p");
+const paragrafosTotal = Array.prototype.reduce.call(
+  paragrafos,
+  (acumulador, paragrafo) => {
+    return acumulador + paragrafo.innerText.length;
+  },
+  0
+);
+console.log(paragrafosTotal);
 
 // Crie uma função que retorne novos elementos
 // html, com os seguintes parâmetros
 // tag, classe e conteudo.
+const newElement = (tag, classe, conteudo) => {
+  const elemento = document.createElement(tag);
+  classe ? elemento.classList.add(classe) : null;
+  conteudo ? (elemento.innerHTML = conteudo) : null;
+  return elemento;
+};
+newElement("li", "teste1", "teste1"); // <li classe="teste1">teste1</li>
 
 // Crie uma nova função utilizando a anterior como base
 // essa nova função deverá sempre criar h1 com a
 // classe titulo. Porém o parâmetro conteudo continuará dinâmico
+const teste = newElement.bind(null, 'h1', 'teste2');
+teste('teste2') // <h1 classe="teste2">teste2</h1>
