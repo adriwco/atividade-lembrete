@@ -270,3 +270,25 @@ const configuracao = {
 // Liste o nome de todas
 // as propriedades do
 // protótipo de String e Array
+
+// --------------------------------------------------------------------------------------------
+
+/*
+Object.create(obj, defineProperties)
+Object.assign(alvo, obj1, obj2)
+Object.defineProperties(alvo, propriedades)
+Object.getOwnPropertyDescriptors(obj)
+Object.keys(obj)
+Object.values(obj)
+Object.entries(obj)
+Object.getOwnPropertyNames(obj)
+Object.getPrototypeOf()
+Object.is()
+Object.freeze()
+Object.seal()
+Object.preventExtensions()
+{}.hasOwnProperty('prop')
+{}.propertyIsEnumerable('prop')
+{}.toString()
+Object.prototype.toString.call(valor)
+*/
