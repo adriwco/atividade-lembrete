@@ -279,7 +279,7 @@ Mutator Methods
 🔸[].copyWithin(alvo, inicio, final)  add valor do inicio até <final a partir do alvo, aceita numero negativo ex: [].copyWithin(-1)
 🔸[].fill(valor, inicio, final) preenche a array com o valor, do início até o <fim
 
-Modificam a array original, apenas retornam uma array modificada. Métodos de acesso...
+Não modificam a array original, apenas retornam uma array modificada. Métodos de acesso...
 🔸[].concat() concatenar a array com o valor passado
 🔸[].includes(valor)   verifica se a array possui o valor e retorna true ou false
 🔸[].indexOf(valor) verifica se a array possui o valor e retorna o index do primeiro valor na array

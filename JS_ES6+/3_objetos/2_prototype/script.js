@@ -163,17 +163,23 @@ console.log(Document.prototype);
 // Liste os construtores dos dados abaixo
 const li = document.querySelector("li");
 li;
-console.log(li.constructor.name); // HTMLLIElement
+li.constructor.name; // HTMLLIElement
+
 li.click;
-console.log(li.click.constructor.name); // Function
+li.click.constructor.name; // Function
+
 li.innerText;
-console.log(li.innerText.constructor.name); // String
+li.innerText.constructor.name; // String
+
 li.value;
-console.log(li.value.constructor.name); // Number
+li.value.constructor.name; // Number
+
 li.hidden;
-console.log(li.hidden.constructor.name); // Boolean
+li.hidden.constructor.name; // Boolean
+
 li.offsetLeft;
-console.log(li.offsetLeft.constructor.name); // Number
+li.offsetLeft.constructor.name; // Number
+
 li.click(); // undefined, não possui esse metodo...
 
 // Qual o construtor do dado abaixo:
