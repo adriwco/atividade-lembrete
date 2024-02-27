@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <form>
+    <label for="buscarCEP" class="sr-only">buscar</label>
+    <input type="number" id="buscarCEP" name="buscarCEP">
+    <button type="button" class="buttonCEP">buscar</button>
+  </form>
+  <p>Endereço completo: <span class="logradouroCEP">...</span></p>
+
+  <p>Bitcoin em BRL (refresh 5s) Ex1: <span class="bitcoin">...</span></p>
+  <p>Bitcoin em USD (refresh 5s) Ex2: <span class="bitcoin2">...</span></p>
+
+  <p>Piada: <span class="piada">...</span></p>
+  <button class="buttonPiada">next</button>
+
+  <script src="./script.js"></script>
+
+</body>
+
+</html>

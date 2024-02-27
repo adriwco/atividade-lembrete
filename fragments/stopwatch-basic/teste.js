@@ -2,14 +2,23 @@
 const body = document.querySelector("body");
 function mudarCor() {
   setInterval(() => {
+    /*
     if (!body.classList.contains("ativo")) {
       body.classList.add("ativo");
     } else {
       body.classList.remove("ativo");
-    }
+    } */
+    document.body.classList.toggle("ativo");
   }, 2000);
 }
-mudarCor()
+mudarCor();
+
+/*
+function mudarCor2() {
+  document.body.classList.toggle("activo");
+}
+setInterval(mudarCor2, 2000);
+*/
 
 // Crie um cronometro utilizando o setInterval. Deve ser possível
 // iniciar, pausar e resetar (duplo clique no pausar).
@@ -40,10 +49,15 @@ function criarContador(timeM, timeS) {
       timeM.innerHTML = formatarNumeroComZero(time2);
       timeS.innerHTML = formatarNumeroComZero(time1);
     }, 1000);
+
+    iniciar.setAttribute("disabled", "");
+    pausar.removeAttribute("disabled");
   }
 
   function pausarContador() {
     clearInterval(timeAll);
+    iniciar.removeAttribute("disabled");
+    pausar.setAttribute("disabled", "");
   }
 
   function resetarContador() {

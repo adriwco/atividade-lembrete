@@ -1,8 +1,8 @@
 npm: clean-css-cli
 cleancss -o css/style.min.css css/style.css --with-rebase
 ----------------------------------------------------
-git config --global user.name "Seu Nome"
-git config --global user.email "email@gmail.com"
+git config --global user.name "adriwco"
+git config --global user.email "adriwco@gmail.com"
 
 echo "# fragmentos" >> README.md
 git init
